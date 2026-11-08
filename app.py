@@ -216,11 +216,11 @@ hr {
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_PATH = os.path.join(
-    BASE_DIR, "california_housing_model.pkl.gz"
+    BASE_DIR, "california_housing_model_compressed.pkl.gz"
 )
 
 THRESHOLD_PATH = os.path.join(
-    BASE_DIR, "calibration_threshold.pkl.gz"
+    BASE_DIR, "calibration_threshold.pkl"
 )
 
 
